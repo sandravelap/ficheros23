@@ -23,7 +23,7 @@ public class Main {
                     code.ej1.checkFiles();
                 }
                 case "2" -> {
-                    libs.Leer.clearScreen();
+
                     code.ej1NIO.checkFilesNIO();
                 }
                 case "3" -> {
@@ -33,7 +33,7 @@ public class Main {
 
                 }
                 default -> {
-                    libs.Leer.clearScreen();
+
                     System.out.println("Opción incorrecta");
                 }
             }
